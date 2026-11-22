@@ -1,0 +1,16 @@
+name: SoulReaper
+version: '1.0'
+main: org.soulreaper.soulReaper.SoulReaper
+api-version: '26.3'
+commands:
+  soul:
+    description: Check your Soul Reaper soul count, cooldown, or view /soul recipe
+    usage: /soul [recipe]
+  sr:
+    description: Admin commands for SoulReaper
+    usage: /sr <get|give|reset> [player]
+    permission: soulreaper.admin
+permissions:
+  soulreaper.admin:
+    description: Allows giving Soul Reaper swords and resetting cooldowns
+    default: op
